@@ -1,0 +1,86 @@
+   0.009160100s  INFO prepare_target{force=false package_id=primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types) target="primitive_data_types"}: cargo::core::compiler::fingerprint: fingerprint error for primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("primitive_data_types", ["lib"], "C:\\Users\\kauel\\Documents\\Estudos\\estudo-rust\\primitive-data-types\\src\\lib.rs", Edition2021) }
+   0.009208800s  INFO prepare_target{force=false package_id=primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types) target="primitive_data_types"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types\target\debug\.fingerprint\primitive-data-types-5c6e05225d713c32\lib-primitive_data_types`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.016494900s  INFO prepare_target{force=false package_id=primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types) target="primitive_data_types"}: cargo::core::compiler::fingerprint: fingerprint error for primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("primitive_data_types", ["lib"], "C:\\Users\\kauel\\Documents\\Estudos\\estudo-rust\\primitive-data-types\\src\\lib.rs", Edition2021) }
+   0.016514400s  INFO prepare_target{force=false package_id=primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types) target="primitive_data_types"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types\target\debug\.fingerprint\primitive-data-types-b1fe5dc4bcfc74b6\test-lib-primitive_data_types`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.016866700s  INFO prepare_target{force=false package_id=primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types) target="tests"}: cargo::core::compiler::fingerprint: fingerprint error for primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types)/Check { test: true }/TargetInner { kind: "test", name: "tests", benched: false, ..: with_path("C:\\Users\\kauel\\Documents\\Estudos\\estudo-rust\\primitive-data-types\\tests\\tests.rs", Edition2021) }
+   0.016882100s  INFO prepare_target{force=false package_id=primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types) target="tests"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types\target\debug\.fingerprint\primitive-data-types-e76a9fd9cb8d8760\test-integration-test-tests`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking primitive-data-types v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\primitive-data-types)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.15s

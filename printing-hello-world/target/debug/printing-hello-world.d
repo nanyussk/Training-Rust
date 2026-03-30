@@ -1,0 +1,1 @@
+C:\Users\kauel\Documents\Estudos\estudo-rust\printing-hello-world\target\debug\printing-hello-world.exe: C:\Users\kauel\Documents\Estudos\estudo-rust\printing-hello-world\src\lib.rs C:\Users\kauel\Documents\Estudos\estudo-rust\printing-hello-world\src\main.rs

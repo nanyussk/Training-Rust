@@ -1,0 +1,86 @@
+   0.009435500s  INFO prepare_target{force=false package_id=mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations) target="mathematical_operations"}: cargo::core::compiler::fingerprint: fingerprint error for mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mathematical_operations", ["lib"], "C:\\Users\\kauel\\Documents\\Estudos\\estudo-rust\\mathematical-operations\\src\\lib.rs", Edition2021) }
+   0.009481700s  INFO prepare_target{force=false package_id=mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations) target="mathematical_operations"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations\target\debug\.fingerprint\mathematical-operations-86094ec47254a151\lib-mathematical_operations`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.017166900s  INFO prepare_target{force=false package_id=mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations) target="mathematical_operations"}: cargo::core::compiler::fingerprint: fingerprint error for mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("mathematical_operations", ["lib"], "C:\\Users\\kauel\\Documents\\Estudos\\estudo-rust\\mathematical-operations\\src\\lib.rs", Edition2021) }
+   0.017198400s  INFO prepare_target{force=false package_id=mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations) target="mathematical_operations"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations\target\debug\.fingerprint\mathematical-operations-7bf685f52c5467ab\test-lib-mathematical_operations`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.017537200s  INFO prepare_target{force=false package_id=mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations) target="tests"}: cargo::core::compiler::fingerprint: fingerprint error for mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations)/Check { test: true }/TargetInner { kind: "test", name: "tests", benched: false, ..: with_path("C:\\Users\\kauel\\Documents\\Estudos\\estudo-rust\\mathematical-operations\\tests\\tests.rs", Edition2021) }
+   0.017554400s  INFO prepare_target{force=false package_id=mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations) target="tests"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations\target\debug\.fingerprint\mathematical-operations-f94d32bdda024c36\test-integration-test-tests`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking mathematical-operations v0.1.0 (C:\Users\kauel\Documents\Estudos\estudo-rust\mathematical-operations)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s
