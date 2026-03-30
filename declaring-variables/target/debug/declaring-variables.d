@@ -1,1 +1,0 @@
-C:\Users\kauel\Documents\Estudos\estudo-rust\declaring-variables\target\debug\declaring-variables.exe: C:\Users\kauel\Documents\Estudos\estudo-rust\declaring-variables\src\lib.rs C:\Users\kauel\Documents\Estudos\estudo-rust\declaring-variables\src\main.rs
